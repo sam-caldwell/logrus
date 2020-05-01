@@ -1,3 +1,13 @@
+# 1.4.2-adrestia
+  * Adapt the project to the Adrestia system to support the
+    structured logging strategy:
+    - Change FieldKeyFile to 094.File
+    - Change FieldKeyFunc to 095.Func
+    - Change FieldKeyLogrusError to 096.LogrusError    	
+    - Change FieldKeyTime to 098.Time
+    - Change FieldKeyLevel to 097.Level
+    - Change FieldKeyMsg to 099.Msg   
+    
 # 1.4.2
   * Fixes build break for plan9, nacl, solaris
 # 1.4.1
